@@ -1,0 +1,118 @@
+header {
+    text-align: Center;
+    font-size: 50px;
+    background-color: greenyellow;
+    border-radius: 100px;
+    font-family:monospace;
+
+}
+
+body {
+    background-color:goldenrod ;
+}
+
+nav {
+    text-align: center;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    background-color: greenyellow;
+    border-radius: 100px;
+  }
+  
+  li {
+    display:inline-block;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 25px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: red;
+    border-radius: 100px;
+  }
+  
+  .section {
+      border-radius: 100px;
+      background-color: greenyellow;
+      width: 500px;
+      height:300px;
+      
+  }
+  .sectionp {
+      text-align: center;
+      font-family:monospace;
+      font-size: 15px;
+      display: block;
+      padding: 2px;
+      
+  }
+
+  .secth {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  article {
+    border-radius: 100px;
+    background-color: greenyellow;
+    width: 500px;
+    height:300px;
+  }
+  .title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 15px;
+  }
+  table {
+      margin-right: auto;
+      margin-left: auto;
+  }
+  td {
+      border: 2px solid;
+      border-color: white;
+      border-style: dashed;
+      padding: 20px;
+      
+  }
+
+  aside {
+    border-radius: 100px;
+    background-color: greenyellow;
+    width: 500px;
+    height:400px;
+    float: right;
+  }
+  form {
+    text-align: center;
+  }
+  input[type=text], [type=password], [type=email] {
+    width: 40%;
+    padding: 5px 7px;
+    margin: 3px ;
+    display: inline-block;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+      width: 20%;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  input[type=submit]:hover {
+      background-color: grey;
+  }
